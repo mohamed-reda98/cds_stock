@@ -8,4 +8,5 @@
 ##############################################################################
 
 
-# from . import models
+from . import model
+from . import inventory_adjust

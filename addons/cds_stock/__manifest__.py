@@ -13,7 +13,8 @@
     'version': '0.1',
     'depends': ['base', 'sale', 'product'],
     'data': [
-        # 'security/ir.model.access.csv',
+        'security/ir.model.access.csv',
+        'views/inventory_adjust_inherit.xml',
     ],
     "pre_init_hook": None,
     "post_init_hook": None,
