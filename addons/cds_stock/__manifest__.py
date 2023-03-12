@@ -11,8 +11,9 @@
         'Ramadan Khalil <rkhalil1990@gmail.com>',
     ],
     'version': '0.1',
-    'depends': ['base', 'sale', 'product'],
+    'depends': ['base', 'sale', 'product', 'stock'],
     'data': [
+        'security/security.xml',
         'security/ir.model.access.csv',
         'views/inventory_adjust_inherit.xml',
     ],

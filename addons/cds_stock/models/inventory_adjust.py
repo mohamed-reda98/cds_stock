@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
-from odoo import fields, models
+from odoo import fields, models, api
 
 
 class InventoryAdjust(models.Model):
     _inherit = 'stock.quant'
 
-    inventory_qty = fields.Float(string="New Counted Quantity", help="The product's counted quantity.")
+    # inventory_quantity = fields.Float(help="The product's counted quantity.")

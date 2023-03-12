@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="module_category_stock" model="ir.module.category">
+        <field name="name">Inventory Adjustments</field>
+        <field name="sequence" eval="1"/>
+    </record>
+    
+    <record id="group_stock_manager" model="res.groups">
+        <field name="name">Inventory Adjustments Manager</field>
+        <field name="category_id" ref="module_category_stock"/>
+        <field name="implied_ids" eval="[(4, ref('base.group_user'))]"/>
+    </record>
+</odoo>
